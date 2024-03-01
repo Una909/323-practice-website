@@ -1,0 +1,155 @@
+body{
+  min-height: 100vh;
+  margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(248, 223, 212);
+}
+
+/* Header */
+header {
+  width: 90%;
+  background-color: rgb(99, 126, 118);
+  padding: 10px;
+  border-radius: 25px;
+  text-align: left;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+}
+
+.headerText {
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 100px;
+  padding: 5px 5px 0 5px;
+  border-radius: 20px;
+}
+
+/* container */
+.container {
+  flex: 1; 
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 30px;
+}
+
+/* Section */
+section {
+  padding: 0 90px 0 90px;
+  margin: 0 90px 20px 90px;
+  background-color: rgba(243, 236, 228, 0.404);
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(65, 65, 68, 0.24);
+}
+
+/* NavBar */
+.sideBar {
+  background-color: rgba(243, 236, 228, 0.404);
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(65, 65, 68, 0.24);
+  padding: 20px 90px 0 20px;
+  margin: 0 0 20px 90px;
+}
+
+nav h2 {
+  padding: 0px 0 50px 10px;
+  margin: 0;
+} 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* Table */
+table {
+  width: 100%;
+}
+
+caption {
+  display: table-caption;
+  text-align: left; 
+  font-size: 20px; 
+  font-weight: bold;
+  padding: 20px 10px 10px 0;
+}
+
+td, th {
+  text-align: left;
+  padding-top: 10px;
+}
+
+/* Main Content */
+.content {
+  min-width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.blogTitle h2 {
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.blogPost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.blogPost img {
+  width: auto;
+  max-width: 90px;
+  margin-right: 20px;
+}
+
+/* About */
+.aboutPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aboutTitle h2 {
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+
+.ditto {
+  width: 200px;
+}
+
+/* Footer */ 
+footer {
+  width: 90%;
+  background-color: rgb(198, 151, 116);
+  padding: 10px;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+}
